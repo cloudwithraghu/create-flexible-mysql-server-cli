@@ -1,0 +1,1 @@
+az mysql flexible-server create --location northeurope --resource-group testGroup --name ecomm-mysql-server --admin-user dbadmin --admin-password 123456789aA# --sku-name Standard_B1ms --tier Burstable --public-access 0.0.0.0 --storage-size 32 --tags "env=dev" --version 5.7 --storage-auto-grow Enabled --iops 500
